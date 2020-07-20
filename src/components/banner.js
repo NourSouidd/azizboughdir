@@ -4,8 +4,12 @@ import Img from "gatsby-image"
 
 const Banner = () => {
     return (
-        <div>
-            <p>banner</p>
+        <div className="banner">
+            <div className="container">
+                <div className="row">
+                    <div className="main-text">Graphic Designer</div>
+                </div>
+            </div>
         </div>
         
     )
