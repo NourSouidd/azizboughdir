@@ -1,5 +1,4 @@
 import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
 
 const Header = () => (
@@ -7,7 +6,7 @@ const Header = () => (
     <div className="container">
       <div className="inner-header">
         <div className="logo">
-            <Link to="/">ODUNSI</Link>
+            <Link to="/">BOUGHDIR</Link>
           </div>
           <div className="navigation">
             <nav>

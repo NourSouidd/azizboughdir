@@ -1,3 +1,38 @@
 $font: 'Helvitica Neue', --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
- Oxygen, Ubunto, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+Oxygen, Ubunto, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+//Colors
+$white: #fff;
+$black: #000;
+$maroon: #83333e;
+$off-white: #f2f4f5;
+
+html,
+body {
+    font-family: $font;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    background: $white;
+}
+
+.container {
+    width: 1640px;
+    min-width: 1640px;
+    margin: 0 auto;
+    @media (max-width: 1440px) {
+        width: 1280px;
+        min-width: 1280px;
+    }
+    @media (max-width: 1280px) {
+        width: 976px;
+        min-width: 976px;
+    }
+    @media (max-width: 976px) {
+        width: 768px;
+        min-width: 768px;
+    }
+}
+
+@import "header";
 
