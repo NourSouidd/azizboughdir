@@ -44,6 +44,9 @@ const Banner = () => {
                         <Img fluid={data.rightPic.childImageSharp.fluid} />
                     </div>
                 </div>
+                <div className="scroll">
+                    <span>Scroll Down</span>
+                </div>
             </div>
         </div>
         
