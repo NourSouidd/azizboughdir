@@ -59,9 +59,7 @@ const Banner = () => {
                 <div className="scroll">
                     <span>Scroll Down</span>
                 </div>
-                <div className="fixed-title">
-                    <p>Graphic Designer <i class="fas fa-circle"></i> Photographer</p>
-                </div>
+                <div className="fixed-title">Visual Artist</div>
             </div>
         </div>
         
