@@ -1,4 +1,7 @@
 import React from "react"
+import { Link } from "gatsby"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
 import Boom from "../videos/boom.mp4"
 // import { useStaticQuery, graphql } from "gatsby"
 // import Img from "gatsby-image"
@@ -57,7 +60,7 @@ const Banner = () => {
                     </div> */}
                 </div>
                 <div className="scroll">
-                    <span>Discover More</span>
+                  <Link to="/about-page">Discover Me   <FontAwesomeIcon className="icon" icon="angle-right" /></Link>
                 </div>
                 <div className="fixed-title">Contemporary Artist</div>
             </div>
