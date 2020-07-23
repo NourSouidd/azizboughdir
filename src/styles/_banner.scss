@@ -76,21 +76,28 @@
       bottom: 48px;
       z-index: 8;
       border-radius: 1px;
+      animation: bounce .3s infinite alternate;
+      @-webkit-keyframes bounce {
+        to { -webkit-transform: scale(1.2); }
+      }
+      @-moz-keyframes bounce {
+        to { -moz-transform: scale(1.2); }
+      }
+      @keyframes bounce {
+        to { transform: scale(1.2); }
+      }
       transition: all .2s ease-in-out; 
       .icon {
         font-size: 1.12rem;
         margin: -2px 2px;    
       }
-      // box-shadow: inset 0 0 0 3px #d00000, inset -4px -4px 0 3px #d00000;
-      // transform: scaleY(0);
-      // transition: .4s ease-out;
       &:hover {
-        // box-shadow: inset 0 0 0 3px #d00000, inset -4px -4px 0 3px #d00000;
+        animation: none;
         background-color: #d00000;
         transform: scale(1.1);
         .icon {
           animation-name: spin;
-          animation-duration: 200ms;
+          animation-duration: 280ms;
           animation-iteration-count: 1;
           animation-timing-function: linear;
           @keyframes spin {
