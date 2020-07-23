@@ -57,7 +57,7 @@ const Banner = () => {
                     </div> */}
                 </div>
                 <div className="scroll">
-                    <span>Scroll Down</span>
+                    <span>Discover More</span>
                 </div>
                 <div className="fixed-title">Contemporary Artist</div>
             </div>
