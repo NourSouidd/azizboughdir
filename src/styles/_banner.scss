@@ -76,16 +76,6 @@
       bottom: 48px;
       z-index: 8;
       border-radius: 1px;
-      animation: bounce .3s infinite alternate;
-      @-webkit-keyframes bounce {
-        to { -webkit-transform: scale(1.2); }
-      }
-      @-moz-keyframes bounce {
-        to { -moz-transform: scale(1.2); }
-      }
-      @keyframes bounce {
-        to { transform: scale(1.2); }
-      }
       transition: all .2s ease-in-out; 
       .icon {
         font-size: 1.12rem;
