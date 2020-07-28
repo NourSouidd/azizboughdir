@@ -48,7 +48,7 @@ const Banner = () => {
             </video>
             <div className="container">
                 <div className="row">
-                    <div className="main-text">Aziz Boughdir</div>
+                    <div className="main-text">CONTEMPORARY ARTIST</div>
                     {/* <div className="side-img left">
                         <Img fluid={data.leftPic.childImageSharp.fluid} />
                     </div>
@@ -60,9 +60,9 @@ const Banner = () => {
                     </div> */}
                 </div>
                 <div className="scroll">
-                  <Link to="/about-page">Discover Me  <FontAwesomeIcon className="icon" icon="angle-right" /></Link>
+                  <Link to="/about-page">Discover Work  <FontAwesomeIcon className="icon" icon="angle-right" /></Link>
                 </div>
-                <div className="fixed-title">Contemporary Artist</div>
+                {/* <div className="fixed-title">Contemporary Artist</div> */}
             </div>
         </div>
         
