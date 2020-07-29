@@ -1,7 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
 import Boom from "../videos/boom.mp4"
 // import { useStaticQuery, graphql } from "gatsby"
 // import Img from "gatsby-image"
@@ -48,7 +47,7 @@ const Banner = () => {
             </video>
             <div className="container">
                 <div className="row">
-                    <div className="main-text">CONTEMPORARY ARTIST</div>
+                    <div className="main-text">AZIZ BOUGHDIR</div>
                     {/* <div className="side-img left">
                         <Img fluid={data.leftPic.childImageSharp.fluid} />
                     </div>
@@ -62,7 +61,7 @@ const Banner = () => {
                 <div className="scroll">
                   <Link to="/about-page">Discover Work  <FontAwesomeIcon className="icon" icon="angle-right" /></Link>
                 </div>
-                {/* <div className="fixed-title">Contemporary Artist</div> */}
+                <div className="fixed-text">Contemporary Artist</div>
             </div>
         </div>
         
