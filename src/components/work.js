@@ -4,12 +4,12 @@ import React from "react"
 // import Img from "gatsby-image"
 // import { distribute } from "gsap/gsap-core"
 
-const About = () => {
+const Work = () => {
 
   return(
-    <div className="about">
+    <div className="work">
         <div className="container">
-            <div className="inner-about">
+            <div className="inner-work">
                 <div className="content">
                     <h3>The ability to create</h3>
                     <p>
@@ -32,4 +32,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Work

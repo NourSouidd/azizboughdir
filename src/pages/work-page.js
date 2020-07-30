@@ -1,12 +1,12 @@
 import React from "react"
 
-import About from '../components/about';
+import Work from '../components/work';
 import Header from '../components/header';
 
 const SecondPage = () => (
   <div>
     <Header />
-    <About /> 
+    <Work /> 
   </div>
 )
 

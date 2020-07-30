@@ -59,7 +59,7 @@ const Banner = () => {
                     </div> */}
                 </div>
                 <div className="scroll">
-                  <Link to="/about-page">Discover Work  <FontAwesomeIcon className="icon" icon="angle-right" /></Link>
+                  <Link to="/work-page">Discover Work  <FontAwesomeIcon className="icon" icon="angle-right" /></Link>
                 </div>
                 <div className="fixed-text">Contemporary Artist</div>
             </div>
