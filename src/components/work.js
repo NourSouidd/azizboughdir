@@ -36,7 +36,7 @@ const Work = () => {
             <div className="inner-work">
                 <div className="content">
                    <div className="projects">
-                       <Link to="/" className="project">
+                       <Link to="/foom-page" className="project">
                           <Img fluid={data.firstWork.childImageSharp.fluid} />
                           <h1>Foom</h1>
                        </Link>

@@ -1,0 +1,15 @@
+.prj {
+    padding: 76px 0;
+    position: relative;
+    align-items: center;
+    height: 100vh;
+    .prj-content {
+        width: 100%;
+        display: grid;
+        
+        video {
+            width: 50%;
+            align-self: center;
+        }
+    }
+}
