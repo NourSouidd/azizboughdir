@@ -5,11 +5,51 @@
     height: 100vh;
     .prj-content {
         width: 100%;
-        display: grid;
-        
         video {
-            width: 50%;
-            align-self: center;
+            width: 74%;
+            position: relative;
+            left: 10%;
         }
+        .prj-imgs {
+            margin-top: 28px;
+            width: 97%;
+            display: grid;
+            column-gap: 216px;
+            row-gap: 55px;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .prj-more {
+            margin-top: 28px;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            .prj-desc {
+                width: 30%;
+                p {
+                    margin-top: 6px;
+                  color: #989898;
+                }
+                .prj-title {
+                    display: flex;
+                    align-items: center;
+                    h1 {
+                        margin-bottom: 0;
+                    }
+                    span {
+                      padding: 8px;
+                      background-color: #d00000;
+                      font-weight: 700;
+                      font-size: 14px;
+                      margin-left: 20px;
+                      margin-top: 22px;
+                      border-radius: 4px;
+                    }
+                }
+            }
+            p {
+                width: 70%;
+            }
+        }
+
     }
 }
