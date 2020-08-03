@@ -44,7 +44,7 @@ const Work = () => {
                           <Img fluid={data.secondWork.childImageSharp.fluid} />
                           <h1>Imchi</h1>
                        </Link>
-                       <Link to="/" className="project">
+                       <Link to="/seminaire-page" className="project">
                           <Img fluid={data.thirdWork.childImageSharp.fluid} />
                           <h1>Naissance Oculaire</h1>
                        </Link>

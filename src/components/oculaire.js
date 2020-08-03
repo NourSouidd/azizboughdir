@@ -1,36 +1,36 @@
 import React from "react"
 import { Link } from "gatsby"
-import Marche from "../videos/marche.mp4"
+import Seminaire from "../videos/seminaire.mp4"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import { distribute } from "gsap/gsap-core"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const Emchi = () => {
+const Oculaire = () => {
     const data = useStaticQuery(graphql`
     query {
-        firstpro: file(relativePath: { eq: "imchi1.png" }) {
+        firstpro: file(relativePath: { eq: "seminaire1.png" }) {
             childImageSharp {
                 fluid(maxWidth: 300) {
                     ...GatsbyImageSharpFluid
                 }
             }
         }
-        secondpro: file(relativePath: { eq: "emchi2.png" }) {
+        secondpro: file(relativePath: { eq: "seminaire2.png" }) {
             childImageSharp {
                 fluid(maxWidth: 300) {
                     ...GatsbyImageSharpFluid
                 }
             }
         }
-        thirdpro: file(relativePath: { eq: "emchi3.png" }) {
+        thirdpro: file(relativePath: { eq: "seminaire3.png" }) {
             childImageSharp {
                 fluid(maxWidth: 300) {
                     ...GatsbyImageSharpFluid
                 }
             }
         }
-        forthpro: file(relativePath: { eq: "imchi4.png" }) {
+        forthpro: file(relativePath: { eq: "seminaire4.png" }) {
             childImageSharp {
                 fluid(maxWidth: 300) {
                     ...GatsbyImageSharpFluid
@@ -49,7 +49,7 @@ const Emchi = () => {
                     loop
                   >
                     <source 
-                      src={Marche}
+                      src={Seminaire}
                       type="video/mp4"
                     />
                   </video>
@@ -62,7 +62,7 @@ const Emchi = () => {
                   <div className="prj-more">
                     <div className="prj-desc">
                         <div className="prj-title">
-                         <h1>Emchi</h1>
+                         <h1>Naissance Oculaire</h1>
                          <span>2020</span>
                         </div>
                         <p>Animation Video</p>
@@ -84,10 +84,10 @@ const Emchi = () => {
                   </div>
                 </div>
                 <div className="btn-red">
-                  <Link to="/work-page">Next Work  <FontAwesomeIcon className="icon" icon="angle-right" /></Link>
+                  <Link to="/work-page">All Work  <FontAwesomeIcon className="icon" icon="angle-right" /></Link>
                 </div>
             </div>
         </div>   
     )
 }
-export default Emchi
+export default Oculaire 
