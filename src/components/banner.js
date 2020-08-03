@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Boom from "../videos/boom.mp4"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Banner = () => {
     return (
@@ -21,7 +21,7 @@ const Banner = () => {
                 <div className="row">
                     <div className="main-text">AZIZ BOUGHDIR</div>
                 </div>
-                <div className="scroll">
+                <div className="btn-red btn-ban">
                   <Link to="/work-page">Discover Work  <FontAwesomeIcon className="icon" icon="angle-right" /></Link>
                 </div>
                 <div className="fixed-text">Contemporary Artist</div>

@@ -4,7 +4,7 @@ import Boom from "../videos/boom.mp4"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import { distribute } from "gsap/gsap-core"
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Foom = () => {
     const data = useStaticQuery(graphql`
@@ -75,7 +75,9 @@ const Foom = () => {
                     </p>
                   </div>
                 </div>
-
+                <div className="btn-red">
+                  <Link to="/work-page">Next Work  <FontAwesomeIcon className="icon" icon="angle-right" /></Link>
+                </div>
             </div>
         </div>   
     )
