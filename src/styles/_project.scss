@@ -18,6 +18,10 @@
             row-gap: 55px;
             grid-template-columns: 1fr 1fr 1fr;
         }
+        .emchi {
+            grid-template-columns: 1fr 1fr 1fr 1fr; 
+            column-gap: 150px;
+        }
         .prj-more {
             margin: 34px 0px;
             display: flex;
