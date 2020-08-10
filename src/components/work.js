@@ -17,6 +17,31 @@ const InnerWork = styled.div`
     justify-content: space-between;
     align-items: center;
 `
+const Content = styled.div`
+    width: 100vw;
+    margin: 30px;
+`
+const Projects = styled.div`
+    width: 100%;
+    display: grid;
+    column-gap: 55px;
+    row-gap: 55px;
+    grid-template-columns: 1fr 1fr;
+    & a {
+        text-decoration: none;
+    }
+`
+const Project = styled.link`
+    color: $white;
+    text-align: center;
+    border: 3px solid $white;
+    border-radius: 4px;
+    transition: all .2s ease-in-out;
+    &:hover {
+    transform: scale(1.1);
+    z-index: 9;
+    }
+`
 
 const Work = () => {
     const data = useStaticQuery(graphql`
@@ -48,22 +73,22 @@ const Work = () => {
     <StyledWork>
         <StyledContainer>
             <InnerWork>
-                <div className="content">
-                   <div className="projects">
-                       <Link to="/foom-page" className="project">
+                <Content>
+                   <Projects>
+                       <Project to="/foom-page">
                           <Img fluid={data.firstWork.childImageSharp.fluid} />
                           <h1>Foom</h1>
-                       </Link>
-                       <Link to="/emchi-page" className="project">
+                       </Project>
+                       <Project to="/emchi-page">
                           <Img fluid={data.secondWork.childImageSharp.fluid} />
                           <h1>Imchi</h1>
-                       </Link>
-                       <Link to="/seminaire-page" className="project">
+                       </Project>
+                       <Project to="/seminaire-page">
                           <Img fluid={data.thirdWork.childImageSharp.fluid} />
                           <h1>Naissance Oculaire</h1>
-                       </Link>
-                    </div>
-                </div>
+                       </Project>
+                    </Projects>
+                </Content>
             </InnerWork>
         </StyledContainer>
     </StyledWork> 
