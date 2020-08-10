@@ -6,6 +6,18 @@ import { distribute } from "gsap/gsap-core"
 import styled from 'styled-components'
 import StyledContainer from './header'
 
+const StyledWork = styled.div`
+    padding: 76px 0;
+    position: relative;
+    align-items: center;
+    height: 100%;
+`
+const InnerWork = styled.div`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+`
+
 const Work = () => {
     const data = useStaticQuery(graphql`
         query {
@@ -33,9 +45,9 @@ const Work = () => {
         }
     `)
   return(
-    <div className="work">
-        <div className="container">
-            <div className="inner-work">
+    <StyledWork>
+        <StyledContainer>
+            <InnerWork>
                 <div className="content">
                    <div className="projects">
                        <Link to="/foom-page" className="project">
@@ -52,9 +64,9 @@ const Work = () => {
                        </Link>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div> 
+            </InnerWork>
+        </StyledContainer>
+    </StyledWork> 
 
   )
 }
