@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import React from "react"
 import styled from 'styled-components'
 
-const StyledHeader = styled.Header`
+const StyledHeader = styled.div`
   height: 80px;
   width: 100%;
   position: fixed;
@@ -11,7 +11,7 @@ const StyledHeader = styled.Header`
   z-index: 10;
 `
 
-const StyledContainer = styled.div`
+export const StyledContainer = styled.div`
   width: 1640px;
   min-width: 1640px;
   margin: 0 auto;
@@ -79,4 +79,4 @@ const Header = () => (
   </StyledHeader>
 )
 
-export default {Header, StyledContainer}
+export default Header

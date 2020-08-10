@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import Boom from "../videos/boom.mp4"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import styled from 'styled-components'
-import StyledContainer from './header'
+import {StyledContainer} from './header'
 
 const StyledBanner = styled.div`
   display: flex;
