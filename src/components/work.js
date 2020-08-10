@@ -3,6 +3,8 @@ import { Link } from "gatsby"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import { distribute } from "gsap/gsap-core"
+import styled from 'styled-components'
+import StyledContainer from './header'
 
 const Work = () => {
     const data = useStaticQuery(graphql`
