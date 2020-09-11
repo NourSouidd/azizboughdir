@@ -60,18 +60,25 @@ const StyledNavigation = styled.div`
   }
 `
 
+const LinkHeader = styled.a`
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  color: $white;
+`
+
 const Header = () => (
   <StyledHeader>
     <StyledContainer>
       <StyledInnerHeader>
         <StyledLogo>
-          <Link to="/">BOUGHDIR</Link>
+          <LinkHeader to="/">BOUGHDIR</LinkHeader>
         </StyledLogo>
         <StyledNavigation>
           <nav>
-            <Link to="/about-page">About</Link>
-            <Link to="/work-page">Work</Link>
-            <Link to="/contact">Contact</Link>
+            <LinkHeader to="/about-page">About</LinkHeader>
+            <LinkHeader to="/work-page">Work</LinkHeader>
+            <LinkHeader to="/contact">Contact</LinkHeader>
           </nav>
         </StyledNavigation>
       </StyledInnerHeader>

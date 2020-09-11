@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import { distribute } from "gsap/gsap-core"
@@ -7,7 +7,7 @@ import styled from 'styled-components'
 import {StyledContainer} from './header'
 
 const StyledWork = styled.div`
-    padding: 76px 0;
+    padding: 76px 0px;
     position: relative;
     align-items: center;
     height: 100%;
@@ -31,7 +31,7 @@ const Projects = styled.div`
         text-decoration: none;
     }
 `
-const Project = styled.link`
+const Project = styled.a`
     color: $white;
     text-align: center;
     border: 3px solid $white;
@@ -75,15 +75,15 @@ const Work = () => {
             <InnerWork>
                 <Content>
                    <Projects>
-                       <Project to="/foom-page">
+                       <Project href="/foom-page">
                           <Img fluid={data.firstWork.childImageSharp.fluid} />
                           <h1>Foom</h1>
                        </Project>
-                       <Project to="/emchi-page">
+                       <Project href="/emchi-page">
                           <Img fluid={data.secondWork.childImageSharp.fluid} />
                           <h1>Imchi</h1>
                        </Project>
-                       <Project to="/seminaire-page">
+                       <Project href="/seminaire-page">
                           <Img fluid={data.thirdWork.childImageSharp.fluid} />
                           <h1>Naissance Oculaire</h1>
                        </Project>
