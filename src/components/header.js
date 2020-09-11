@@ -60,7 +60,7 @@ const StyledNavigation = styled.div`
   }
 `
 
-const LinkHeader = styled.a`
+export const LinkPage = styled.a`
   font-weight: 700;
   text-decoration: none;
   letter-spacing: 1.5px;
@@ -72,13 +72,13 @@ const Header = () => (
     <StyledContainer>
       <StyledInnerHeader>
         <StyledLogo>
-          <LinkHeader to="/">BOUGHDIR</LinkHeader>
+          <LinkPage to="/">BOUGHDIR</LinkPage>
         </StyledLogo>
         <StyledNavigation>
           <nav>
-            <LinkHeader to="/about-page">About</LinkHeader>
-            <LinkHeader to="/work-page">Work</LinkHeader>
-            <LinkHeader to="/contact">Contact</LinkHeader>
+            <LinkPage to="/about-page">About</LinkPage>
+            <LinkPage to="/work-page">Work</LinkPage>
+            <LinkPage to="/contact">Contact</LinkPage>
           </nav>
         </StyledNavigation>
       </StyledInnerHeader>
