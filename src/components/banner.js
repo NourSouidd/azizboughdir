@@ -4,7 +4,6 @@ import Boom from "../videos/boom.mp4"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import styled from 'styled-components'
 import {StyledContainer} from './header'
-import {LinkPage} from './header'
 
 const StyledBanner = styled.div`
   display: flex;
@@ -115,7 +114,7 @@ const Banner = () => {
                     <StyledMainText>AZIZ BOUGHDIR</StyledMainText>
                 </div>
                 <StyledBtnRed>
-                  <LinkPage to="/work-page">Discover Work  <FontAwesomeIcon className="icon" icon="angle-right" /></LinkPage>
+                  <Link className="linkto" className="linkto" to="/work-page">Discover Work  <FontAwesomeIcon className="icon" icon="angle-right" /></Link>
                 </StyledBtnRed>
                 <StyledFixedText>Contemporary Artist</StyledFixedText>
             </StyledContainer>

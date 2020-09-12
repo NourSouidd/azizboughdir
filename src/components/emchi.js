@@ -84,7 +84,7 @@ const Emchi = () => {
                   </div>
                 </div>
                 <div className="btn-red">
-                  <Link to="/seminaire-page">Next Work  <FontAwesomeIcon className="icon" icon="angle-right" /></Link>
+                  <Link className="linkto" to="/seminaire-page">Next Work  <FontAwesomeIcon className="icon" icon="angle-right" /></Link>
                 </div>
             </div>
         </div>   

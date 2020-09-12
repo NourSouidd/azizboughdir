@@ -76,7 +76,7 @@ const Foom = () => {
                   </div>
                 </div>
                 <div className="btn-red">
-                  <Link to="/emchi-page">Next Work  <FontAwesomeIcon className="icon" icon="angle-right" /></Link>
+                  <Link className="linkto" to="/emchi-page">Next Work  <FontAwesomeIcon className="icon" icon="angle-right" /></Link>
                 </div>
             </div>
         </div>   

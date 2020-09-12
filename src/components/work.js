@@ -75,15 +75,15 @@ const Work = () => {
             <InnerWork>
                 <Content>
                    <Projects>
-                       <Project href="/foom-page">
+                       <Project className="linkto" href="/foom-page">
                           <Img fluid={data.firstWork.childImageSharp.fluid} />
                           <h1>Foom</h1>
                        </Project>
-                       <Project href="/emchi-page">
+                       <Project className="linkto" href="/emchi-page">
                           <Img fluid={data.secondWork.childImageSharp.fluid} />
                           <h1>Imchi</h1>
                        </Project>
-                       <Project href="/seminaire-page">
+                       <Project className="linkto" href="/seminaire-page">
                           <Img fluid={data.thirdWork.childImageSharp.fluid} />
                           <h1>Naissance Oculaire</h1>
                        </Project>
