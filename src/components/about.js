@@ -6,18 +6,13 @@ import {StyledContainer} from './header'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const StyledAbout = styled.div`
-  height: 80px;
-  width: 100%;
-  position: fixed;
-  background-color: $black;
-  top: 0px;
-  z-index: 10;
-`
-const StyledInnerAbout = styled.div`
-    padding: 76px 0;
+    padding: 76px 0px;
     position: relative;
     align-items: center;
-    height: 100vh;
+    height: 100%;
+`
+const StyledInnerAbout = styled.div`
+    width: 100%;
 `
 
 const StyledContent = styled.div`
@@ -68,7 +63,7 @@ const About = () => (
                     <StyledList>
                     <Link className="linkto" to="/"><FontAwesomeIcon icon={["fab", "linkedin"]}/></Link>
                     <Link className="linkto" to="/"><FontAwesomeIcon icon={["fab", "facebook-square"]}/></Link>
-                    <Link className="linkto" to="/"><FontAwesomeIcon icon={["fas", "fa-at"]} /></Link>
+                    <Link className="linkto" to="/"><FontAwesomeIcon icon={["fas", "envelope"]} /></Link>
                     </StyledList>
                 </StyledDescription>
 
