@@ -66,6 +66,9 @@ const About = () => (
                         including versions of Lorem Ipsum.
                     </p>
                     <StyledList>
+                    <Link className="linkto" to="/"><FontAwesomeIcon icon={["fab", "linkedin"]}/></Link>
+                    <Link className="linkto" to="/"><FontAwesomeIcon icon={["fab", "facebook-square"]}/></Link>
+                    <Link className="linkto" to="/"><FontAwesomeIcon icon={["far", "envelope"]} /></Link>
                     </StyledList>
                 </StyledDescription>
 
