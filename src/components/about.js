@@ -68,7 +68,7 @@ const About = () => (
                     <StyledList>
                     <Link className="linkto" to="/"><FontAwesomeIcon icon={["fab", "linkedin"]}/></Link>
                     <Link className="linkto" to="/"><FontAwesomeIcon icon={["fab", "facebook-square"]}/></Link>
-                    <Link className="linkto" to="/"><FontAwesomeIcon icon={["far", "envelope"]} /></Link>
+                    <Link className="linkto" to="/"><FontAwesomeIcon icon={["fas", "fa-at"]} /></Link>
                     </StyledList>
                 </StyledDescription>
 
