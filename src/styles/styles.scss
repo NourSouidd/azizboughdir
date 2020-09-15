@@ -15,6 +15,7 @@ body {
     margin: 0;
     background: $black;
     color: $white;
+    line-height: 27px;
 }
 
 .linkto {
@@ -27,6 +28,13 @@ body {
     &:last-child {
         margin-right: 0px;
     }
+}
+
+.coicon {
+    font-size: 1.75rem;
+} 
+.coicon:hover {
+    color: #d00000;
 }
 
 @import "project";

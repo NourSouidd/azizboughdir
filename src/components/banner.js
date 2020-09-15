@@ -52,11 +52,11 @@ const StyledFixedText = styled.div`
     left: -40px;
   }
 `
-const StyledBtnRed = styled.div`
+export const StyledBtnRed = styled.div`
   position: absolute;
   right: 6%;
   z-index: 8;
-  bottom: 48px;
+  bottom: 1;
   & a {
     text-decoration: none;
     font-weight: 700;

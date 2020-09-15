@@ -5,6 +5,8 @@ import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import { distribute } from "gsap/gsap-core"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import styled from 'styled-components'
+import {StyledBtnRed} from './banner'
 
 const Foom = () => {
     const data = useStaticQuery(graphql`
@@ -75,9 +77,9 @@ const Foom = () => {
                     </p>
                   </div>
                 </div>
-                <div className="btn-red">
+                <StyledBtnRed>
                   <Link className="linkto" to="/emchi-page">Next Work  <FontAwesomeIcon className="icon" icon="angle-right" /></Link>
-                </div>
+                </StyledBtnRed>
             </div>
         </div>   
     )

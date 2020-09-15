@@ -11,8 +11,7 @@
             left: 10%;
         }
         .prj-imgs {
-            margin-top: 28px;
-            width: 97%;
+            margin: 40px;
             display: grid;
             column-gap: 216px;
             grid-template-columns: 1fr 1fr 1fr;
@@ -22,13 +21,13 @@
             column-gap: 120px;
         }
         .prj-more {
-            margin: 34px 127px;
+            margin: 34px 146px;
             display: flex;
             justify-content: space-between;
             .prj-desc {
-                width: 30%;
+                width: 50%;
                 p {
-                    margin-top: 6px;
+                  margin: 6px;
                   color: #989898;
                 }
                 .prj-title {
@@ -49,7 +48,7 @@
                 }
             }
             p {
-                width: 70%;
+                width: 50%;
             }
         }
     }

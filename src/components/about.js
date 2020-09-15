@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import Azbg from "../videos/about.mp4"
 import {StyledContainer} from './header'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 const StyledAbout = styled.div`
     padding: 76px 0px;
@@ -28,6 +29,8 @@ const StyledDescription = styled.div`
     margin: 20px;
 `
 const StyledList = styled.div`
+    text-align: center;
+    margin-top: 10px;
 `
 
 const About = () => (
@@ -61,9 +64,9 @@ const About = () => (
                         including versions of Lorem Ipsum.
                     </p>
                     <StyledList>
-                    <Link className="linkto" to="/"><FontAwesomeIcon icon={["fab", "linkedin"]}/></Link>
-                    <Link className="linkto" to="/"><FontAwesomeIcon icon={["fab", "facebook-square"]}/></Link>
-                    <Link className="linkto" to="/"><FontAwesomeIcon icon={["fas", "envelope"]} /></Link>
+                    <Link className="linkto coicon" to="/"><FontAwesomeIcon icon={["fab", "linkedin"]}/></Link>
+                    <Link className="linkto coicon" to="/"><FontAwesomeIcon icon={["fab", "facebook-square"]}/></Link>
+                    <Link className="linkto coicon" to="/"><FontAwesomeIcon icon={faEnvelope} /></Link>
                     </StyledList>
                 </StyledDescription>
 
