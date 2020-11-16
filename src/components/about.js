@@ -43,30 +43,24 @@ const About = () => (
                     autoPlay
                     loop
                 >
-                    <source 
+                    <source
                         src={Azbg}
                         type="video/mp4"
                     />
                 </StyledVideo>
                 <StyledDescription>
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing 
-                        and typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the 1500s, 
-                        when an unknown printer took a galley of type and 
-                        scrambled it to make a type specimen book. 
-                        It has survived not only five centuries, but 
-                        also the leap into electronic typesetting, 
-                        remaining essentially unchanged. It was popularised 
-                        in the 1960s with the release of Letraset sheets 
-                        containing Lorem Ipsum passages, and more recently 
-                        with desktop publishing software like Aldus PageMaker 
-                        including versions of Lorem Ipsum.
+                      Aziz Boughedir holds a degree in plastic art obtained at l'Institut supérieur des beaux-arts de Tunis.
+                      He subsequently supports a Master of Research in the same Institute where he is interested in contemporary
+                      Tunisian art galleries. Since January 2020, Aziz has been a PhD candidate at l'Université de Montréal.
+                      His research interests focus on the valorization of contemporary Arab art and art market systems.
+                      His thesis project focuses on the emergence and evolution of the contemporary Arab art market, taking as a
+                      case study the Tunisian art market from the protectorate period to the present day.
                     </p>
                     <StyledList>
-                    <Link className="linkto coicon" to="/"><FontAwesomeIcon icon={["fab", "linkedin"]}/></Link>
-                    <Link className="linkto coicon" to="/"><FontAwesomeIcon icon={["fab", "facebook-square"]}/></Link>
-                    <Link className="linkto coicon" to="/"><FontAwesomeIcon icon={faEnvelope} /></Link>
+                    <Link className="linkto coicon" target="_blank" to="https://www.linkedin.com/in/aziz-boughedir-44615b1ab/"><FontAwesomeIcon icon={["fab", "linkedin"]}/></Link>
+                    <Link className="linkto coicon" target="_blank" to="https://fr-fr.facebook.com/azizboughedir"><FontAwesomeIcon icon={["fab", "facebook-square"]}/></Link>
+                    <Link className="linkto coicon" target="_blank" to="/"><FontAwesomeIcon icon={faEnvelope} /></Link>
                     </StyledList>
                 </StyledDescription>
 

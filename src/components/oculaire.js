@@ -85,7 +85,7 @@ const Oculaire = () => {
                     </p>
                   </div>
                 </div>
-                <StyledBtnRed>
+                <StyledBtnRed className="btnbottom">
                   <Link className="linkto" to="/work-page">All Work  <FontAwesomeIcon className="icon" icon="angle-right" /></Link>
                 </StyledBtnRed>
             </div>

@@ -71,7 +71,7 @@ const Header = () => (
           <nav>
             <Link className="linkto" to="/about-page">About</Link>
             <Link className="linkto" to="/work-page">Work</Link>
-            <Link className="linkto" to="/contact">Contact</Link>
+            <Link className="linkto" to="/contact-page">Contact</Link>
           </nav>
         </StyledNavigation>
       </StyledInnerHeader>

@@ -56,7 +56,7 @@ export const StyledBtnRed = styled.div`
   position: absolute;
   right: 6%;
   z-index: 8;
-  bottom: 1;
+  bottom: 4%;
   & a {
     text-decoration: none;
     font-weight: 700;

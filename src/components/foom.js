@@ -77,7 +77,7 @@ const Foom = () => {
                     </p>
                   </div>
                 </div>
-                <StyledBtnRed>
+                <StyledBtnRed className="btnbottom">
                   <Link className="linkto" to="/emchi-page">Next Work  <FontAwesomeIcon className="icon" icon="angle-right" /></Link>
                 </StyledBtnRed>
             </div>

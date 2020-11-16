@@ -3,6 +3,10 @@
     position: relative;
     align-items: center;
     height: 100vh;
+    .btnbottom {
+        bottom: 0;
+        top: 145%;
+    }
     .prj-content {
         width: 100%;
         video {
