@@ -10,8 +10,8 @@
     "@fortawesome/free-regular-svg-icons": "^5.14.0",
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
     "@fortawesome/react-fontawesome": "^0.1.11",
-    "gatsby": "^2.23.12",
-    "gatsby-cli": "^2.12.68",
+    "gatsby": "^2.26.1",
+    "gatsby-cli": "^2.13.1",
     "gatsby-image": "^2.4.9",
     "gatsby-plugin-fontawesome-css": "^1.0.0",
     "gatsby-plugin-manifest": "^2.4.14",
@@ -39,6 +39,7 @@
   ],
   "license": "MIT",
   "scripts": {
+    "deploy": "gatsby build && gh-pages -d master",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",

@@ -18,28 +18,28 @@ const Contact = () => {
     return (
         <StyledContact>
             <StyledContainer>
-                <form method="post" action="#">
-                    <label>
-                        Name
-                        <input type="text" name="name" id="name" />
-                    </label>
-                    <label>
-                        Email
-                        <input type="email" name="email" id="email" />
-                    </label>
-                    <label>
-                        Subject
-                        <input type="text" name="subject" id="subject" />
-                    </label>
-                    <label>
-                        Message
-                    <textarea name="message" id="message" rows="5" />
-                    </label>
-                    <button type="submit">Send</button>
-                    <input type="reset" value="Clear" />
-                </form>
+              <form name="contact" method="POST" data-netlify="true">
+                <p>
+                  <label>Name: <input type="text" name="name" /></label>
+                </p>
+                <p>
+                  <label>Email: <input type="email" name="email" /></label>
+                </p>
+                <p>
+                  <label>Subject: <select name="role[]" multiple>
+                    <option value="leader">Leader</option>
+                    <option value="follower">Follower</option>
+                  </select></label>
+                </p>
+                <p>
+                  <label>Message: <textarea name="message"></textarea></label>
+                </p>
+                <p>
+                  <button type="submit">Send</button>
+                </p>
+              </form>
             </StyledContainer>
-        </StyledContact>   
+        </StyledContact>
     )
 }
 export default Contact
