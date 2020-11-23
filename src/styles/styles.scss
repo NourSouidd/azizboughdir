@@ -32,9 +32,14 @@ body {
 
 .coicon {
     font-size: 1.75rem;
-} 
+}
 .coicon:hover {
     color: #d00000;
+}
+
+.form {
+  width: 60%;
+  margin: 0 16%;
 }
 
 @import "project";
