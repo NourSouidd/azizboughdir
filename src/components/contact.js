@@ -10,14 +10,15 @@ const StyledContact = styled.div`
   height: 100%;
 `
 const StyledForm = styled.div`
-  display: grid;
-  grid-template-rows: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 28px;
 
 `
 
 const StyledFormName = styled.div`
   display: flex;
-  width: 40%;
+  width: 100%;
   justify-content: space-between;
 
 `
