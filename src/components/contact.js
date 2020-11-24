@@ -33,11 +33,11 @@ const Contact = () => {
                 <StyledFormName>
                   <StyledForm>
                   <label>First Name</label>
-                    <input className="input" type="text" name="firstname" />
+                    <input className="input" type="text" name="first-name" />
                   </StyledForm>
                   <StyledForm>
                     <label>Last Name</label>
-                    <input className="input" type="text" name="lastname" />
+                    <input className="input" type="text" name="last-name" />
                   </StyledForm>
                 </StyledFormName>
                 <StyledForm>
