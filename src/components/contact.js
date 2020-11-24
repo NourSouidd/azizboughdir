@@ -13,6 +13,7 @@ const StyledForm = styled.div`
     display: flex;
     flex-direction: column;
     margin-bottom: 28px;
+    border-bottom: 2px solid white;
 
 `
 
@@ -22,12 +23,6 @@ const StyledFormName = styled.div`
   justify-content: space-between;
 
 `
-const StyledMainText = styled.div`
-
-`
-const StyledFixedText = styled.div`
-`
-
 
 const Contact = () => {
     return (
@@ -50,11 +45,9 @@ const Contact = () => {
                 </StyledForm>
                 <StyledForm>
                   <label>Message</label>
-                  <textarea className="input" name="message"></textarea>
+                  <textarea className="input texta" name="message"></textarea>
                 </StyledForm>
-                <StyledForm>
-                  <button type="submit">Send</button>
-                </StyledForm>
+                  <button className="contact-btn"type="submit">Send</button>
               </form>
             </StyledContainer>
         </StyledContact>

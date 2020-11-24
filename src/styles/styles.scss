@@ -4,7 +4,6 @@ Oxygen, Ubunto, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 //Colors
 $white: #fff;
 $black: #000;
-$maroon: #83333e;
 $off-white: #f2f4f5;
 
 html,
@@ -40,6 +39,33 @@ body {
 .form {
   width: 30%;
   margin: 4% 32%;
+}
+
+.input {
+  border: none;
+  height: 25px;
+  margin-bottom: 9px;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 16px;
+  border-radius: 0px;
+  appearance: none;
+}
+
+.contact-btn {
+  width: 100%;
+  height: 35px;
+  font-size: 16px;
+  background: #d00000;
+  color: white;
+  font-family: Roboto;
+  border: none;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.texta {
+  min-height: 120px;
 }
 
 @import "project";
