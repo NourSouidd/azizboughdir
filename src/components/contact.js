@@ -33,7 +33,7 @@ const Contact = () => {
     return (
         <StyledContact>
             <StyledContainer>
-              <form className="form" name="contact" method="POST" data-netlify="true">
+              <form className="form" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
                 <StyledFormName>
                   <StyledForm>
                   <label>First Name</label>

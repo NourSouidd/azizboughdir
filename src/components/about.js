@@ -62,7 +62,7 @@ const About = () => (
                     <StyledList>
                     <Link className="linkto coicon" target="_blank" to="https://www.linkedin.com/in/aziz-boughedir-44615b1ab/"><FontAwesomeIcon icon={["fab", "linkedin"]}/></Link>
                     <Link className="linkto coicon" target="_blank" to="https://fr-fr.facebook.com/azizboughedir"><FontAwesomeIcon icon={["fab", "facebook-square"]}/></Link>
-                    <Link className="linkto coicon" target="_blank" to="mailto:azizboughedir@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></Link>
+                    <a className="linkto coicon" href="mailto:azizboughedir@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
                     </StyledList>
                 </StyledDescription>
 
