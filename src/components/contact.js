@@ -29,6 +29,7 @@ const Contact = () => {
         <StyledContact>
             <StyledContainer>
               <form className="form" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+                <input type="hidden" name="form-name" value="contact" />
                 <StyledFormName>
                   <StyledForm>
                   <label>First Name</label>

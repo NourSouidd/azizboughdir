@@ -7,10 +7,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 const StyledAbout = styled.div`
-    padding: 76px 0px;
-    position: relative;
-    align-items: center;
-    height: 100%;
+  padding: 76px 0px;
+  position: relative;
+  align-items: center;
+  height: 100%;
 `
 const StyledInnerAbout = styled.div`
     width: 100%;
