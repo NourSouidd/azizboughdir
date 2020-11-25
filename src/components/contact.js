@@ -51,6 +51,17 @@ const StyledTextarea = styled.textarea`
   appearance: none;
   min-height: 120px;
 `
+const StyledButton = styled.button`
+ width: 100%;
+ height: 35px;
+ font-size: 16px;
+ background: #d00000;
+ color: white;
+ font-family: Roboto;
+ border: none;
+ font-weight: 300;
+ cursor: pointer;
+`
 
 
 const Contact = () => {
@@ -77,7 +88,7 @@ const Contact = () => {
                   <label>Message</label>
                   <StyledTextarea name="message"></StyledTextarea>
                 </StyledFormBlock>
-                  <button className="contact-btn" type="submit">Send</button>
+                  <StyledButton className="contact-btn" type="submit">Send</StyledButton>
               </StyledForm>
             </StyledContainer>
         </StyledContact>
