@@ -5,6 +5,7 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
+    `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-fontawesome-css`,
     {
@@ -29,7 +30,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-sass`,
-    `gatsby-plugin-styled-components`,
     // {
     //     resolve: `gatsby-transformer-remark`,
     //     options: {
