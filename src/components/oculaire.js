@@ -7,6 +7,7 @@ import { distribute } from "gsap/gsap-core"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import styled from 'styled-components'
 import {StyledBtnRed} from './banner'
+import {StyledContainer} from './header'
 
 const Oculaire = () => {
     const data = useStaticQuery(graphql`
@@ -43,14 +44,14 @@ const Oculaire = () => {
 `)
     return (
         <div className="prj">
-            <div className="container">
+            <StyledContainer>
                 <div className="prj-content">
                   <video
                     muted
                     autoPlay
                     loop
                   >
-                    <source 
+                    <source
                       src={Seminaire}
                       type="video/mp4"
                     />
@@ -70,17 +71,17 @@ const Oculaire = () => {
                         <p>Animation Video</p>
                     </div>
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing 
+                        Lorem Ipsum is simply dummy text of the printing
                         and typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the 1500s, 
-                        when an unknown printer took a galley of type and 
-                        scrambled it to make a type specimen book. 
-                        It has survived not only five centuries, but 
-                        also the leap into electronic typesetting, 
-                        remaining essentially unchanged. It was popularised 
-                        in the 1960s with the release of Letraset sheets 
-                        containing Lorem Ipsum passages, and more recently 
-                        with desktop publishing software like Aldus PageMaker 
+                        industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and
+                        scrambled it to make a type specimen book.
+                        It has survived not only five centuries, but
+                        also the leap into electronic typesetting,
+                        remaining essentially unchanged. It was popularised
+                        in the 1960s with the release of Letraset sheets
+                        containing Lorem Ipsum passages, and more recently
+                        with desktop publishing software like Aldus PageMaker
                         including versions of Lorem Ipsum.
                     </p>
                   </div>
@@ -88,8 +89,8 @@ const Oculaire = () => {
                 <StyledBtnRed className="btnbottom">
                   <Link className="linkto" to="/work-page">All Work  <FontAwesomeIcon className="icon" icon="angle-right" /></Link>
                 </StyledBtnRed>
-            </div>
-        </div>   
+            </StyledContainer>
+        </div>
     )
 }
-export default Oculaire 
+export default Oculaire

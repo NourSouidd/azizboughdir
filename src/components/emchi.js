@@ -8,7 +8,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import styled from 'styled-components'
 import {StyledBtnRed} from './banner'
 import {StyledContainer} from './header'
-import {StyledProject, StyledPrjContent, StyledVideo, StyledPrjImg, StyledPrjMore, StyledPrjDesc, StyledPrjtext, StyledPrjtitle, StyledTitle, StyledPrjSpan, StyledPrjprg} from './foom'
+
+// import {StyledProject, StyledPrjContent, StyledVideo, StyledPrjImg, StyledPrjMore, StyledPrjDesc, StyledPrjtext, StyledPrjtitle, StyledTitle, StyledPrjSpan, StyledPrjprg} from './foom'
 
 const Emchi = () => {
     const data = useStaticQuery(graphql`
@@ -45,7 +46,7 @@ const Emchi = () => {
 `)
     return (
         <div className="prj">
-            <div className="container">
+            <StyledContainer>
                 <div className="prj-content">
                   <video
                     muted
@@ -90,7 +91,7 @@ const Emchi = () => {
                 <StyledBtnRed className="btnbottom">
                   <Link className="linkto" to="/seminaire-page">Next Work  <FontAwesomeIcon className="icon" icon="angle-right" /></Link>
                 </StyledBtnRed>
-            </div>
+            </StyledContainer>
         </div>
     )
 }
