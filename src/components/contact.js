@@ -9,7 +9,12 @@ const StyledContact = styled.div`
   position: relative;
   height: 100%;
 `
-const StyledForm = styled.div`
+
+const StyledForm = styled.form`
+  width: 30%;
+  margin: 4% 32%;
+`
+const StyledFormBlock = styled.div`
     display: flex;
     flex-direction: column;
     margin-bottom: 28px;
@@ -24,32 +29,56 @@ const StyledFormName = styled.div`
 
 `
 
+const StyledInput = styled.input`
+  border: none;
+  height: 25px;
+  margin-bottom: 9px;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 16px;
+  border-radius: 0px;
+  appearance: none;
+`
+
+const StyledTextarea = styled.textarea`
+  border: none;
+  height: 25px;
+  margin-bottom: 9px;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 16px;
+  border-radius: 0px;
+  appearance: none;
+  min-height: 120px;
+`
+
+
 const Contact = () => {
     return (
         <StyledContact>
             <StyledContainer>
-              <form className="form" name="contact" method="POST" data-netlify="true">
+              <StyledForm name="contact" method="POST" data-netlify="true">
                 <input type="hidden" name="form-name" value="contact" />
                 <StyledFormName>
-                  <StyledForm>
+                  <StyledFormBlock>
                   <label>First Name</label>
-                    <input className="input" type="text" name="first-name" />
-                  </StyledForm>
-                  <StyledForm>
+                    <StyledInput type="text" name="first-name" />
+                  </StyledFormBlock>
+                  <StyledFormBlock>
                     <label>Last Name</label>
-                    <input className="input" type="text" name="last-name" />
-                  </StyledForm>
+                    <StyledInput type="text" name="last-name" />
+                  </StyledFormBlock>
                 </StyledFormName>
-                <StyledForm>
+                <StyledFormBlock>
                   <label>Email</label>
-                  <input className="input" type="email" name="email" />
-                </StyledForm>
-                <StyledForm>
+                  <StyledInput type="email" name="email" />
+                </StyledFormBlock>
+                <StyledFormBlock>
                   <label>Message</label>
-                  <textarea className="input texta" name="message"></textarea>
-                </StyledForm>
+                  <StyledTextarea name="message"></StyledTextarea>
+                </StyledFormBlock>
                   <button className="contact-btn" type="submit">Send</button>
-              </form>
+              </StyledForm>
             </StyledContainer>
         </StyledContact>
     )
