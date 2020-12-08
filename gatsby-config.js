@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Aziz Boughedir Portfolio`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `Aziz Boughedir is a contemporary artist located in Montreal.`,
+    author: `Nour Souid`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,

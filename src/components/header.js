@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 import styled from 'styled-components'
+import PropTypes from "prop-types"
 
 const StyledHeader = styled.div`
   height: 80px;
