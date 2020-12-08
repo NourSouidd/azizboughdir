@@ -1,14 +1,13 @@
 import React from "react"
-import '../styles/styles.scss'
 
+import Layout from "../components/layout";
 import Work from '../components/work';
-import Header from '../components/header';
 
 const SecondPage = () => (
-  <div>
+  <Layout>
     <Header />
     <Work />
-  </div>
+  </Layout>
 )
 
 export default SecondPage

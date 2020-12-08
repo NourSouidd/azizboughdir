@@ -1,14 +1,12 @@
 import React from "react"
-import '../styles/styles.scss'
 
-import Header from '../components/header';
+import Layout from "../components/layout";
 import Contact from '../components/contact';
 
 const sixthPage = () => (
-    <div>
-        <Header />
+    <Layout>
         <Contact />
-    </div>
+    </Layout>
 )
 
 export default sixthPage

@@ -91,7 +91,7 @@ const Work = () => {
                 </Content>
             </InnerWork>
         </StyledContainer>
-    </StyledWork> 
+    </StyledWork>
 
   )
 }

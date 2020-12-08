@@ -1,15 +1,12 @@
-import { Link } from "gatsby"
 import React from "react"
-import '../styles/styles.scss'
+import Layout from "../components/layout"
 
-import Header from '../components/header';
 import Emchi from '../components/emchi';
 
 const ForthPage = () => (
-    <div>
-        <Header />
+    <Layout>
         <Emchi />
-    </div>
+    </Layout>
 )
 
 export default ForthPage

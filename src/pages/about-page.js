@@ -1,14 +1,12 @@
-import React from "react"
-import '../styles/styles.scss'
+import React from "react";
 
-import Header from '../components/header';
+import Layout from "../components/layout";
 import About from '../components/about';
 
 const FifthPage = () => (
-    <div>
-        <Header />
+    <Layout>
         <About />
-    </div>
+    </Layout>
 )
 
 export default FifthPage
